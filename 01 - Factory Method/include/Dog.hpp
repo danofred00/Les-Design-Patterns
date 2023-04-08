@@ -8,6 +8,8 @@
     class Dog : public Animal
     {
         using Animal::Animal;
+        public:
+            void speak() override;
     };
 
 #endif

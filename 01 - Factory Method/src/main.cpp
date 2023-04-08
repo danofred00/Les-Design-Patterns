@@ -5,9 +5,13 @@
 
 int main(int argc, char const *argv[])
 {
-    Animal dog = AnimalFactory::create("DOG", "John");
+    // create a Dog with create method from AnimalFactory
+    auto dog = AnimalFactory::create("DOG", "John");
 
-    std::cout << dog.getName() << std::endl;
+    // we can see here that he's working
+    std::cout << dog->getName() << std::endl;
+
+    dog->speak(); 
 
     return 0;
 }

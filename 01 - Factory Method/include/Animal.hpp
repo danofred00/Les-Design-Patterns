@@ -18,6 +18,9 @@
             std::string getName() const;
             void setName(std::string name);
 
+            // abstract method
+            virtual void speak() = 0;
+
         private:
             // private name property for the animal
             std::string m_name;

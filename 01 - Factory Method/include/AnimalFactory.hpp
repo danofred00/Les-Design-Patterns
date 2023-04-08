@@ -4,6 +4,8 @@
     #define __ANIMAL_FACTORY__
 
     #include "Animal.hpp"
+    #include <memory>
+
 
     class AnimalFactory
     {
@@ -12,7 +14,7 @@
         ~AnimalFactory();
 
         // Factory method to create an instance of Animal
-        static Animal create(const std::string type, std::string name);
+        static std::unique_ptr<Animal> create(const std::string type, std::string name);
     };
 
 #endif
