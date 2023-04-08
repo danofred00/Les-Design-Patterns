@@ -2,7 +2,6 @@
 #include <AnimalFactory.hpp>
 #include <Dog.hpp>
 #include <Cat.hpp>
-#include <string>
 
 #include <stdexcept>
 
