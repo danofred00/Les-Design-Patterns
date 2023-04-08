@@ -1,11 +1,11 @@
 
 #include <iostream>
-#include <Cat.hpp>
-#include <Dog.hpp>
+#include <AnimalFactory.hpp>
+
 
 int main(int argc, char const *argv[])
 {
-    Animal dog = Dog("Toto");
+    Animal dog = AnimalFactory::create("DOG", "John");
 
     std::cout << dog.getName() << std::endl;
 
