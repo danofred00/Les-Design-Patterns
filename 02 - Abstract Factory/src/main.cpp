@@ -10,11 +10,11 @@ int main(int argc, char const *argv[])
     auto factory = CatFactory();
 
     // create a Dog with create method from Factory
-    auto dog = factory.create("John");
+    auto cat = factory.create("John");
     // we can see here that he's working
-    std::cout << dog->getName() << std::endl;
+    std::cout << cat->getName() << std::endl;
 
-    dog->speak(); 
+    cat->speak(); 
 
     return 0;
 }
