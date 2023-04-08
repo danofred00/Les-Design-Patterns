@@ -8,8 +8,8 @@ Alors, imaginons-nous avoir deux classes Dog et Cat qui héritent tous les deux 
 
 Traditionnellement, notre code ressemblerai à ceci:
     
-    Animal * john = new Dog('John');
-    Animal * doe  = new Cat('Doe');
+    Animal john = Dog('John');
+    Animal doe  = Cat('Doe');
 
 
 Maintenant, si l'on veut toute fois le faire sans directement appeler leur(s) constructeur(s), alors une methode factory repond bien a notre besoin. 
