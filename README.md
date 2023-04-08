@@ -12,6 +12,8 @@ Il s'agit ici d'un manuel sur les differents desing pattern que je connais et ai
     + Patterns de contruction
     + Pattern structural
     + Pattern de comportement
+4. Utilisation de ce depot
+
 
 # Requis pour debuter
 Attention !!!
@@ -34,7 +36,8 @@ Chaque repertoire ici represente une implementation de design pattern, je les ai
 Notes: J'utiliserai C++ pour implementer les differents patterns
 
 ## Construction patterns
-Ceux-ci sont utiliser ici pour de la construction d'objet.
+Ceux-ci 
++sont utiliser ici pour de la construction d'objet.
 + Factory Method
 + Abstract Factory
 + Builder
@@ -57,6 +60,13 @@ Ceux-ci definissent le comportement de certains objets par rapport a d'autres.
 + Template
 
 Ceci n'est pas une liste exaustive de tous les design patterns qui existent, mais il s'agit de ceux que je maitrise pour le mieux, et J'espere qu'elle vous sera bien utile.
+
+## Utilisation de ce depot
+
+Pour tester les codes que je vous fournis, vous devez creer le dossier bin dans le sous-dossier contenant le pattern a tester,  ensuite executer le Makefile.
+
+    mkdir bin
+    make
 
 ### Autres References :
 + [Professional C book - Marc Gregoire]()
