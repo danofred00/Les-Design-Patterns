@@ -1,6 +1,5 @@
 # Design Pattern Explain Par [Daniel Leussa](https://github.com/danofred00)
 
-
 Il s'agit ici d'un manuel sur les differents desing pattern que je connais et aimerais partager avec vous.
 
 
@@ -69,3 +68,9 @@ Pour tester les codes que je vous fournis, vous devez creer le dossier bin dans 
 
 ### Autres References :
 + [Professional C book - Marc Gregoire]()
+
+
+### Reseaux sociaux
++ [Youtube](https://m.youtube.com/@harptutos)
++ [Instagram](https://instagram.com/danofred0)
++ [Tiktok](https://tiktok.com/danofred00)
