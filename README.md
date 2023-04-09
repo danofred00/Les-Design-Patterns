@@ -36,8 +36,7 @@ Chaque repertoire ici represente une implementation de design pattern, je les ai
 Notes: J'utiliserai C++ pour implementer les differents patterns
 
 ## Construction patterns
-Ceux-ci 
-+sont utiliser ici pour de la construction d'objet.
+Ceux-ci sont utiliser ici pour de la construction d'objet.
 + Factory Method
 + Abstract Factory
 + Builder
